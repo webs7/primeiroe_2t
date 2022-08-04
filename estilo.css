@@ -1,5 +1,5 @@
 body{
-  background: red;
+  background: #ffffff;
 }
 h1 {
   text-align: center;
@@ -15,4 +15,11 @@ position:
   height: 200px;
   background: #AABBBB;
   left: 50%
+}
+.menuPrincipal {
+  position: absolute; 
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: 100px;
+  top: 0;
 }
