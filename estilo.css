@@ -1,5 +1,5 @@
 body{
-  background: #ffffff;
+  background: #00ffff;
 }
 h1 {
   text-align: center;
@@ -13,12 +13,12 @@ position:
   position: relative;
   width: 200px;
   height: 200px;
-  background: #AABBBB;
+  background: #00ffff;
   left: 50%
 }
 .menuPrincipal {
   position: absolute; 
-  background: rgb(0, 0, 0);
+  background: rgb(0, 255, 221);
   width: 100%;
   height: 45px;
   top: 0;
@@ -40,6 +40,19 @@ li a {
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
 }
-li a: :hover {
+li a:hover {
+  background-color: blue;
+  color: blue;
+}
 
+}
+.boxImagem {
+width: 400px;
+height: 100px;
+background-color: red;
+top: 100px;
+}
+#bola {
+  width: 80px;
+  height: 80px;
 }
