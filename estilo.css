@@ -45,14 +45,38 @@ li a:hover {
   color: blue;
 }
 
-}
 .boxImagem {
 width: 400px;
 height: 100px;
 background-color: red;
 top: 100px;
+left: 0;
+margin: 20px;
+border-color: blueviolet;
+border-width: 20px;
+border-style: solid;
+padding: 20px;
+display: flex;
+justify-content: center;
 }
 #bola {
   width: 80px;
   height: 80px;
 }
+.rodape {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  color: blueviolet;
+  background-color: cyan;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.conteudoHome {
+  position: absolute;
+  top: 45px;
+
+}
+.logoGastao
