@@ -1,24 +1,24 @@
-body{
-  background: #00ffff;
+body {
+  background: rgb(219, 238, 152);
 }
 h1 {
   text-align: center;
 }
 /*
-position: absolute;
-position: fixed;
-position:
+  position: absolute;
+  position: fixed;
+  position: sticky;
 */
 .caixa1 {
   position: relative;
   width: 200px;
   height: 200px;
-  background: #00ffff;
-  left: 50%
+  background: rgb(255, 166, 0);
+  left: 50px;
 }
 .menuPrincipal {
-  position: absolute; 
-  background: rgb(0, 255, 221);
+  position: absolute;
+  background: rgb(120, 128, 251);
   width: 100%;
   height: 45px;
   top: 0;
@@ -34,41 +34,40 @@ li {
 }
 li a {
   display: block;
-  color: blue;
+  color: rgb(255, 0, 0);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 li a:hover {
-  background-color: blue;
-  color: blue;
+  background: rgba(255, 202, 57, 0.589);
 }
-
-.boxImagem {
-width: 400px;
-height: 100px;
-background-color: red;
-top: 100px;
-left: 0;
-margin: 20px;
-border-color: blueviolet;
-border-width: 20px;
-border-style: solid;
-padding: 20px;
-display: flex;
-justify-content: center;
+.boxImage {
+  position: absolute;
+  width: 90%;
+  height: 500px;
+  background: rgb(255, 166, 0);
+  top: 45px;
+  left: 0;
+  margin: 20px;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+  padding: 10px;
+  display: flex;
+  justify-content:center;
 }
-#bola {
-  width: 80px;
-  height: 80px;
+#mar {
+  width: 800%;
+  height: 500px;
 }
 .rodape {
   position: absolute;
-  width: 100px;
+  width: 100%;
   height: 50px;
-  color: blueviolet;
-  background-color: cyan;
+  color: white;
+  background: gray;
   left: 0;
   bottom: 0;
   display: flex;
@@ -77,6 +76,8 @@ justify-content: center;
 .conteudoHome {
   position: absolute;
   top: 45px;
-
 }
-.logoGastao
+#imagemHome {
+  
+}
+
